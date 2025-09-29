@@ -93,8 +93,15 @@ header, main, footer{
     background-color: var(--white);
 }
 
-/* Shared header and footer styles */
-header, footer{
+/* header and footer styles */
+header{
+    text-align: center;
+    background-color: var(--mint);
+    padding-bottom: 32px;
+    padding-top: 16px;
+}
+
+footer{
     text-align: center;
     background-color: var(--mint);
     padding-bottom: 16px;
@@ -146,8 +153,6 @@ h2 {
     font-size: 1.5em;
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     font-weight: bold;
     unicode-bidi: isolate;
 }
@@ -169,7 +174,9 @@ img {
 }
 
 figcaption {
-    margin: 0 auto;
+    margin-left: 2.5rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
 }
 /* Paragraph Styles */
 p{
