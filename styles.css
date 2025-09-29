@@ -60,6 +60,20 @@ table {
     --code-fonts: 'Lucida Console', monospace;
 }
 
+/* H1 Styles */
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+
+
 /* Body Styles */
 /* You will need to add more, but this adds a background pattern to the page */
 body{
@@ -122,6 +136,29 @@ main > section{
 /* Styles for the h2 & h3 tags */
 h2, h3{
     text-align: center;
+}
+
+/* Styles for the h2 tags */
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
 }
 
 /* Paragraph Styles */
@@ -188,6 +225,13 @@ fieldset{
     gap: 1rem;
     margin: 1rem 0;
     border-color: var(--red);
+    min-inline-size: min-content;
+    margin-inline: 2px;
+    border-width: 2px;
+    border-style: groove;
+    border-image: initial;
+    padding-block: 0.35em 0.625em;
+    padding-inline: 0.75em;
 }
 
 /* Code for Custom Radios - Compare to Your zyBook, I added additional code to make these match my form styles */
