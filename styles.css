@@ -97,6 +97,8 @@ header, main, footer{
 header, footer{
     text-align: center;
     background-color: var(--mint);
+    padding-bottom: 16px;
+    padding-top: 16px;
 }
 
 /* Navigation Styles */
@@ -161,6 +163,14 @@ h3 {
     unicode-bidi: isolate;
 }
 
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+figcaption {
+    margin: 0 auto;
+}
 /* Paragraph Styles */
 p{
     max-width: 65ch;
